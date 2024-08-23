@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "browser-sync": "^3.0.2",
+    "del": "^7.1.0",
+    "gulp": "^5.0.0",
+    "gulp-beautify": "^3.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^6.0.0",
+    "gulp.spritesmith": "^6.13.1",
+    "merge-stream": "^2.0.0",
+    "postcss": "^8.4.39",
+    "postcss-merge-queries": "^1.0.3",
+    "postcss-merge-rules": "^7.0.2",
+    "sass": "^1.77.6"
+  },
+  "scripts": {
+    "gulp": "gulp --gulpfile ./gulpfile.js/index.js",
+    "mc": "node ./make-component.js/index.js"
+  }
+}
